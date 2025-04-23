@@ -1,11 +1,16 @@
 <!-- <app-control-flow/>
-
+<hr>
+<app-interpolacao/>
+<hr> -->
+<!-- <app-propertie-binding/> -->
 <hr>
 
-<app-interpolacao/>
+<ul>
+  @for(carro of carros;  track $index){
+    <li>
+      {{carro.id}} | {{carro.ano}} | {{carro.marca}} | {{carro.nome}} | {{carro.cor}}
+    </li>
 
-<hr> -->
-
-<app-propertie-binding/>
-
+  }
+</ul>
 <router-outlet />
