@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { InterpolacaoComponent } from './components/interpolacao/interpolacao.component';
 import { ControlFlowComponent } from './components/control-flow/control-flow.component';
 import { PropertieBindingComponent } from './components/propertie-binding/propertie-binding.component';
-import {Carros} from '../interfaces/Carros'
+import {Carros} from './interfaces/Carros'
 @Component({
   selector: 'app-root',
   standalone: true,
