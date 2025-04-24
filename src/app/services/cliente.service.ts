@@ -7,8 +7,10 @@ import {Cliente} from '../interfaces/Clientes'
 export class ClienteService {
 
   clientes: Cliente[] = [
-    {id:"ljhhgfrdtuguibh", nome:"Amanda", telefone: "1"},
-    {id:"sawafcytvhgbubu", nome:"Beatriz", telefone: "3"}
+    {id:"ljhhgfrdtuguibh", nome:"Amanda", telefone: "1345678952"},
+    {id:"sawafcytvhgbubu", nome:"Beatriz", telefone: "2478521965"},
+    {id:"trehyfbdbdfgdgs", nome:"Clara", telefone: "3478523667"},
+    {id:"iyrgfdvscxzcazs", nome:"Juliana", telefone: "4478521468"}
   ]
 
   constructor() { }

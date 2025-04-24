@@ -20,7 +20,8 @@ private clienteService:ClienteService,
 private FormBuilder:FormBuilder
 ){
   this.clienteForm = FormBuilder.group({
-    nome: ['', Validators.required]
+    nome: ['', Validators.required],
+    telefone: ['']
   });
 }
 
@@ -31,6 +32,12 @@ list(): void {
 //método executado ao inicializar a página
 ngOnInit():void{
 this.list()
+}
+
+save(){
+  if(this.clienteForm.valid){
+    alert('Podemos salvar!')
+  }
 }
 
 }
