@@ -1,27 +1,50 @@
-# AppControlFlow
+# AppControlFlow – Angular Control Flow Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+**AppControlFlow** is a web application developed using **Angular**, demonstrating the use of control flow structures such as `*ngIf`, `*ngFor`, and `ngSwitch`. The application showcases how to dynamically display content based on user input and application state.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Technologies Used
 
-## Code scaffolding
+- **Angular**: A platform and framework for building single-page client applications using HTML and TypeScript.
+- **TypeScript**: A superset of JavaScript that compiles to plain JavaScript, providing static types and other features.
+- **Angular CLI**: A command-line interface for Angular to automate the workflow of development tasks.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🚀 Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+Ensure you have the following installed:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- **Node.js**: [Download and install Node.js](https://nodejs.org/)
+- **Angular CLI**: Install globally using npm:
 
-## Running end-to-end tests
+  ```bash
+  npm install -g @angular/cli
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## Project Structure
+ControlFlow_Angular/
+├── src/
+│   ├── app/
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   └── app.module.ts
+│   ├── assets/
+│   └── environments/
+├── angular.json
+├── package.json
+└── README.md
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 💡Features
+
+Dynamic Content Rendering: Utilizes Angular directives like *ngIf, *ngFor, and ngSwitch to render content conditionally.
+
+Component-Based Architecture: Follows Angular's component-based structure for modular development.
+
+Responsive Design: Ensures the application is usable on various screen sizes.
